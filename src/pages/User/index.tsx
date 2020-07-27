@@ -103,17 +103,6 @@ const User: React.FC = () => {
 
   return (
     <Container>
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
       <Header>
         <h2>Novo usuário</h2>
         <Link to="/">
