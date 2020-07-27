@@ -1,8 +1,6 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import { useHistory, Link } from 'react-router-dom';
 import ReactLoading from 'react-loading';
-import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer, toast } from 'react-toastify';
 
 import { RiArrowLeftSLine } from 'react-icons/ri';
 import Button from '../../components/Button';
